@@ -1,0 +1,18 @@
+str1 = "learn"
+str2 = 'Python language'
+str3 = """This is also string"""
+print(str1)
+print(len(str2))
+print(str3)
+str4 = str1 + str2 +" "+ str3
+print(str4[:-1],"\t",len(str4))
+
+print(str4.endswith("ge"))
+str4 = str4.capitalize()
+str4 = str4.replace("Learn", "Learning ")
+str4 = str4.replace("is", "tHiS")
+print(str4)
+print(str4.find("tHiS"))
+print(str4.find("nagaraj"))
+
+
